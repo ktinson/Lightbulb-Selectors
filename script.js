@@ -10,19 +10,24 @@ light1.addEventListener("click", function(){
     count++
     subTitle.innerHTML=`You've clicked the lights ${count} times`
     console.log(subTitle.innerHTML=`You've clicked the lights ${count} times`)
+    light1.classList.toggle("active")
 })
 light2.addEventListener("click", function(){
     count++
     subTitle.innerHTML=`You've clicked the lights ${count} times`
     console.log(subTitle.innerHTML=`You've clicked the lights ${count} times`)
+    light2.classList.toggle("active")
 
 })
 light3.addEventListener("click", function(){
     count++
     subTitle.innerHTML=`You've clicked the lights ${count} times`
     console.log(subTitle.innerHTML=`You've clicked the lights ${count} times`)
+    light3.classList.toggle("active")
+
 
 })
+
 console.log(light1)
 console.log(light2)
 console.log(light3)
